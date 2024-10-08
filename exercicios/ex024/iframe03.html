@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt natus pariatur dolore recusandae, obcaecati corrupti et doloremque earum. Exercitationem nobis minima accusamus debitis optio hic doloribus, praesentium ut quasi doloremque!</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag01.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag02.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag03.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit eligendi temporibus quod in inventore nihil molestiae, nesciunt quia unde at eius doloremque suscipit aperiam. Dicta magnam deserunt et quaerat adipisci!</p>
+
+    <iframe srcdoc="<h1>Escolha uma das opcções acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officiis itaque accusantium, perspiciatis iusto, eius dolor, ea earum voluptates voluptatibus consectetur. Repellendus ut quidem ex eligendi odio corporis in soluta?</p><img src='images/cursoemvideo.png'>" name="frame">
+        <p>Infelizmente seu navegador não é compatível com isso!</p>
+    </iframe>    
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officiis itaque accusantium, perspiciatis iusto, eius dolor, ea earum voluptates voluptatibus consectetur. Repellendus ut quidem ex eligendi odio corporis in soluta?</p>
+</body>
+</html>
