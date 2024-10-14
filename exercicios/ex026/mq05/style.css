@@ -18,16 +18,16 @@ header h1 {
   padding: 10px;
 }
 #burger {
-    background-color: rgb(48, 48, 48);
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    cursor: pointer;
+  background-color: rgb(48, 48, 48);
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
 }
-#burger:hover  {
-    background-color: white;
-    color: black;
+#burger:hover {
+  background-color: white;
+  color: black;
 }
 menu {
   display: none;
