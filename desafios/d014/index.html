@@ -30,7 +30,7 @@
                 id="email"
                 placeholder="seu e-mail"
                 autocomplete="email"
-                minlength="30"
+                maxlength="30"
                 required
               />
               <label for="login">Login</label>
@@ -42,6 +42,10 @@
                 name="pass"
                 id="pass"
                 placeholder="sua senha"
+                autocomplete="current-password"
+                minlength="8"
+                maxlength="20"
+                required
               />
               <label for="pass">Password</label>
             </div>

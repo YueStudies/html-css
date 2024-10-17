@@ -24,6 +24,7 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  overflow: hidden;
   background-color: white;
   width: 250px;
   height: 515px;
@@ -37,7 +38,6 @@ main {
   background: url("image/metal.jpg") no-repeat left bottom;
   background-size: cover;
   height: 200px;
-  border-radius: 20px 20px 0px 0px;
 }
 #form {
   display: block;
