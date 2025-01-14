@@ -1,0 +1,14 @@
+@media only screen and (min-width: 600px) {
+  header {
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  nav {
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+  }
+  a {
+    width: 80px;
+    margin: 5px;
+  }
+}
